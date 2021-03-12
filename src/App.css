@@ -1,0 +1,40 @@
+.App {
+  text-align: center;
+}
+
+.title {
+  justify-content: center;
+  text-align: center;
+  font-weight: 700;
+  padding: 20px 0px 20px 30px;
+}
+
+.card {
+  width: 350px;
+  border: 1px solid black;
+  margin: 30px;
+  padding: 0px 0px 20px 0px;
+}
+
+.header {
+  display: flex;
+  padding: 10px;
+  align-items: center;
+
+}
+
+.card h4 {
+  width: 80%;
+  text-align: center;
+  padding: 0px 0px 0px 0px;
+}
+
+.card img {
+  display: flex;
+  width: 100%;
+}
+
+.card p {
+  padding: 0px 20px 0px 20px;
+  justify-content: center;
+}
