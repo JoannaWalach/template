@@ -11,7 +11,7 @@
   color: white;
   margin: 0;
   width: 200px;
-  height: 800px;
+  height: 1000px;
 }
 
 .content {
@@ -55,4 +55,29 @@
 .card p {
   padding: 0px 0px 0px 0px;
   justify-content: center;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+}
+
+.menu a {
+  background-color: rgb(12, 12, 182);
+  border: 1px solid darkblue;
+  padding: 20px;
+}
+
+.table {
+  background-color: rgb(237, 238, 236);
+  width: 700px;
+  border: 1px solid white;
+  font-size: 13px;
+  color: black;
+  margin-bottom: 30px;
+}
+
+.table td {
+  padding: 0px 20px;
 }
