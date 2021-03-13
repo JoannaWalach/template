@@ -1,16 +1,35 @@
 .App {
+
+  display: flex;
+  width: 800px;
   text-align: center;
+
+}
+
+.sidebar {
+  background-color:darkblue;
+  color: white;
+  margin: 0;
+  width: 200px;
+  height: 800px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  margin-left: 30px;
 }
 
 .title {
-  justify-content: center;
-  text-align: center;
+  justify-content: left;
+  text-align: left;
   font-weight: 700;
   padding: 20px 0px 20px 30px;
 }
 
 .card {
-  width: 350px;
+  width: 250px;
+  font-size: 12px;
   border: 1px solid black;
   margin: 30px;
   padding: 0px 0px 20px 0px;
@@ -18,15 +37,15 @@
 
 .header {
   display: flex;
-  padding: 10px;
-  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+	align-items: center;
 
 }
 
 .card h4 {
   width: 80%;
-  text-align: center;
-  padding: 0px 0px 0px 0px;
+  padding-top: 0;
 }
 
 .card img {
@@ -35,6 +54,6 @@
 }
 
 .card p {
-  padding: 0px 20px 0px 20px;
+  padding: 0px 0px 0px 0px;
   justify-content: center;
 }

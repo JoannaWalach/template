@@ -11,12 +11,10 @@ function Textarea({bgColor, color, borderSize, borderColor, borderRadius}) {
       borderRadius: {borderRadius},
       width: 250,
       height: 100,
-      marginLeft: 50,
       marginBottom: 20,
       fontSize: 14,
       justifyContent: 'left',
-
-      paddingLeft: 20
+      padding: 20
     }}></textarea>
     );
   }

@@ -11,7 +11,7 @@ function MagicButton({label, bgColor, color, icon}) {
     width: 180,
     height: 40,
     fontSize: 14,
-    marginLeft: 50,
+    marginTop: 0
   }}>
    <FontAwesomeIcon icon={icon} />
    {label}
