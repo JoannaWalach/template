@@ -70,11 +70,11 @@
 }
 
 .table {
-  background-color: rgb(237, 238, 236);
+  background-color: rgb(31, 167, 4);
   width: 700px;
   border: 1px solid white;
-  font-size: 13px;
-  color: black;
+  font-size: 14px;
+  color: white;
   margin-bottom: 30px;
 }
 
